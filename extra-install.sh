@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # created by Robert Ward rob.ward78.3@gmail.com
-
+# (c) Robert Ward 2025
 # please note this script is a work in progress
 # working out a workaround for apt-key issues
 
@@ -15,7 +15,7 @@ sudo apt update && sudo apt full-upgrade -y
 
 # install extras
 
-sudo apt update && sudo apt install --install-suggests --install-recommends -y inetutils-tools moreutils gedit* gpart* net-tools wget* curl
+sudo apt update && sudo apt install --install-suggests --install-recommends -y inetutils-tools moreutils gedit* gpart* net-tools wget* curl libdvd*
 
 # add google chrome repository
 
@@ -35,7 +35,9 @@ sudo apt update && sudo apt full-upgrade -y
 
 # system cleanup
 
-sudo apt autoremove --purge -y && sudo apt clean
+# sudo apt autoremove --purge -y 
+
+sudo apt clean
 
 # reboot system
 
