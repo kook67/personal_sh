@@ -16,7 +16,7 @@ sudo apt update && sudo apt full-upgrade -y
 
 # install extras
 
-sudo apt update && sudo apt install --install-suggests --install-recommends -y inetutils-tools moreutils gedit* gpart* net-tools wget* curl libdvd*
+sudo apt update && sudo apt install --install-suggests --install-recommends -y inetutils-tools moreutils gedit* gpart* net-tools wget* curl libdvd* thunderbird thunderbird-l10n-en-gb thunderbird-bidiui
 
 # add google chrome repository
 
